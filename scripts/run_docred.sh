@@ -39,8 +39,6 @@ if true; then
   --seed 66 \
   --num_class 97 \
   --save_path ../checkpoint/docred/train_bert-lr${bl}_accum${accum}_unet-lr${ul}_type_${channel_type}.pt \
-  --log_dir ../logs/docred/train_bert-lr${bl}_accum${accum}_unet-lr${ul}_type_${channel_type}.log \
-  --train_from_saved_model /data/lzb/DocRED/checkpoint/docred/train_roberta-lr3e-5_accum2_unet-lr4e-4_type_context-based_3.pt \
-  --load_path /data/lzb/DocRED/checkpoint/docred/train_roberta-lr3e-5_accum2_unet-lr4e-4_type_context-based_3.pt
+  --log_dir ../logs/docred/train_bert-lr${bl}_accum${accum}_unet-lr${ul}_type_${channel_type}.log 
   done
 fi
