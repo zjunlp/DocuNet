@@ -51,7 +51,7 @@ pip install -r requirements.txt
 
 我们的模型达到了以下的性能：
 
-### [在DocRED上的文档级关系抽取](https://github.com/thunlp/DocRED)
+## 在[DocRED](https://github.com/thunlp/DocRED)上的文档级关系抽取
 
 | 模型     | Ign F1 on Dev | F1 on Dev | Ign F1 on Test | F1 on Test |
 | :----------------: |:--------------: | :------------: | ------------------ | ------------------ |
@@ -59,7 +59,7 @@ pip install -r requirements.txt
 | DocuNet-RoBERTa (large) | 62.23±0.12 | 64.12±0.14 | 62.39 | 64.55 |
 
 
-### [在CDR和GDA上的文档级关系抽取](https://github.com/fenchri/edge-oriented-graph)
+## 在[CDR和GDA](https://github.com/fenchri/edge-oriented-graph)上的文档级关系抽取
 
 | 模型  |    CDR    | GDA |
 | :----------------: | :----------------: | :----------------: |
