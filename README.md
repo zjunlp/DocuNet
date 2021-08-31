@@ -54,7 +54,7 @@ To evaluate the trained model in the paper, you setting the `--load_path` argume
 
 Our model achieves the following performance on : 
 
-### [Document-level Relation Extraction on DocRED](https://github.com/thunlp/DocRED)
+## Document-level Relation Extraction on [DocRED](https://github.com/thunlp/DocRED)
 
 
 | Model     | Ign F1 on Dev | F1 on Dev | Ign F1 on Test | F1 on Test |
@@ -62,7 +62,7 @@ Our model achieves the following performance on :
 | DocuNet-BERT (base) |  59.86±0.13 |   61.83±0.19 |     59.93    |      61.86  |
 | DocuNet-RoBERTa (large) | 62.23±0.12 | 64.12±0.14 | 62.39 | 64.55 |
 
-### [Document-level Relation Extraction on CDR and GDA](https://github.com/fenchri/edge-oriented-graph)
+## Document-level Relation Extraction on [CDR and GDA](https://github.com/fenchri/edge-oriented-graph)
 
 | Model  |    CDR    | GDA |
 | :----------------: | :----------------: | :----------------: |
