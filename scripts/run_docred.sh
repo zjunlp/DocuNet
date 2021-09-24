@@ -1,7 +1,7 @@
 #! /bin/bash
 export CUDA_VISIBLE_DEVICES=0
 
-# -------------------DUN_BERT_base Training Shell Script--------------------
+# -------------------Training Shell Script--------------------
 if true; then
   transformer_type=bert
   channel_type=context-based
