@@ -9,7 +9,7 @@ uls=(4e-4)
 accum=1
 for ul in ${uls[@]}
 do
-python -u  ../train_bio.py --data_dir ../dataset/cdr \
+python -u  ./train_bio.py --data_dir ./dataset/cdr \
   --max_height 35 \
   --channel_type $type \
   --bert_lr $bl \
@@ -28,8 +28,8 @@ python -u  ../train_bio.py --data_dir ../dataset/cdr \
   --num_train_epochs 30.0 \
   --seed 111 \
   --num_class 2 \
-  --save_path ../checkpoint/cdr/train_scibert-lr${bl}_accum${accum}_unet-lr${ul}_bs${bs}.pt \
-  --log_dir ../logs/cdr/train_scibert-lr${bl}_accum${accum}_unet-lr${ul}_bs${bs}.log
+  --save_path ./checkpoint/cdr/train_scibert-lr${bl}_accum${accum}_unet-lr${ul}_bs${bs}.pt \
+  --log_dir ./logs/cdr/train_scibert-lr${bl}_accum${accum}_unet-lr${ul}_bs${bs}.log
 done
 fi
 
