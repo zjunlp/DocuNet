@@ -181,6 +181,7 @@ def report(args, model, features):
     preds = []
     for batch in dataloader:
         model.eval()
+
         inputs = {'input_ids': batch[0].to(args.device),
                   'attention_mask': batch[1].to(args.device),
                   'entity_pos': batch[3],
@@ -192,7 +193,8 @@ def report(args, model, features):
             pred = pred.cpu().numpy()
             pred[np.isnan(pred)] = 0
             preds.append(pred)
-    preds = np.array(preds).astype(np.float32)
+
+    preds = np.concatenate(preds, axis=0).astype(np.float32)
     preds = to_official(preds, features)
     return preds
 
