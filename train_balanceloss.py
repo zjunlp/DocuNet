@@ -316,7 +316,6 @@ def main():
         T_features = test_features  # Testing on the test set
         #T_score, T_output = evaluate(args, model, T_features, tag="test")
         pred = report(args, model, T_features)
-        print(pred)
         with open("./submit_result/result.json", "w") as fh:
             json.dump(pred, fh)
 
