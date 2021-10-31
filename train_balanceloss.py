@@ -189,7 +189,7 @@ def report(args, model, features):
                   }
 
         with torch.no_grad():
-            pred, *_ = model(**inputs)
+            pred = model(**inputs)
             pred = pred.cpu().numpy()
             pred[np.isnan(pred)] = 0
             preds.append(pred)
