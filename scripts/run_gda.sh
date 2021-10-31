@@ -25,7 +25,7 @@ python -u  ./train_bio.py --data_dir ./dataset/gda \
   --learning_rate $ul \
   --max_grad_norm 1.0 \
   --warmup_ratio 0.06 \
-  --num_train_epochs 10.0 \
+  --num_train_epochs 10 \
   --evaluation_steps 400 \
   --seed 66 \
   --num_class 2 \
