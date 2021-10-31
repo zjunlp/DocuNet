@@ -8,7 +8,7 @@ if true; then
   if [[ $transformer_type == bert ]]; then
     bs=4
     bl=3e-5
-    ul=(3e-4 4e-4 5e-4)
+    uls=(3e-4 4e-4 5e-4)
     accum=1
     for ul in ${uls[@]}
     do
@@ -27,7 +27,7 @@ if true; then
     --learning_rate $ul \
     --max_grad_norm 1.0 \
     --warmup_ratio 0.06 \
-    --num_train_epochs 30.0 \
+    --num_train_epochs 30 \
     --seed 66 \
     --num_class 97 \
     --save_path ./checkpoint/docred/train_bert-lr${bl}_accum${accum}_unet-lr${ul}_type_${channel_type}.pt \
@@ -56,7 +56,7 @@ if true; then
     --learning_rate $ul \
     --max_grad_norm 1.0 \
     --warmup_ratio 0.06 \
-    --num_train_epochs 30.0 \
+    --num_train_epochs 30 \
     --seed 111 \
     --num_class 97 \
     --save_path ./checkpoint/docred/train_roberta-lr${bl}_accum${accum}_unet-lr${ul}_type_${channel_type}.pt \
