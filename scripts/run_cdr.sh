@@ -25,7 +25,7 @@ python -u  ./train_bio.py --data_dir ./dataset/cdr \
   --learning_rate $ul \
   --max_grad_norm 1.0 \
   --warmup_ratio 0.06 \
-  --num_train_epochs 30.0 \
+  --num_train_epochs 30 \
   --seed 111 \
   --num_class 2 \
   --save_path ./checkpoint/cdr/train_scibert-lr${bl}_accum${accum}_unet-lr${ul}_bs${bs}.pt \
