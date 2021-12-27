@@ -69,7 +69,9 @@ Our model achieves the following performance on :
 | DocuNet-SciBERT (base) | 76.3±0.40    | 85.3±0.50  |
 
 
+# Aacknowledgement
 
+Part of our code is borrowed from [https://github.com/wzhouad/ATLOP](https://github.com/wzhouad/ATLOP)), many thanks.
 
 # Papers for the Project & How to Cite
 If you use or extend our work, please cite the following paper:
