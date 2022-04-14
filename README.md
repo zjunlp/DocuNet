@@ -1,4 +1,4 @@
-[**中文**](https://github.com/zjunlp/DocRE/blob/master/README_CN.md) | [**English**](https://github.com/zjunlp/DocRE/blob/master/README.md)
+
 
 >
 
