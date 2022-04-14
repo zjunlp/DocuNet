@@ -3,7 +3,7 @@
 >
 
 <p align="center">
-  	<font size=7><strong>DocNet:Document-level Relation Extraction as Semantic Segmentation</strong></font>
+  	<font size=10><strong>DocNet:Document-level Relation Extraction as Semantic Segmentation</strong></font>
 </p>
 
 
