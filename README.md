@@ -11,9 +11,9 @@
 This repository is the official implementation of [**DocuNet**](https://github.com/zjunlp/DocRE/), which is model proposed in a paper: **[Document-level Relation Extraction as Semantic Segmentation](https://www.ijcai.org/proceedings/2021/551)**, accepted by **IJCAI2021** main conference. 
 
 
-# Contributor
+<!-- # Contributor
 Xiang Chen, Xin Xie, Shuming Deng, Ningyu Zhang, and Huajun Chen. 
-
+ -->
 
 # Brief Introduction
 This paper innovatively proposes the DocuNet model, which first regards the document-level relation extraction as the semantic segmentation task in computer vision.
