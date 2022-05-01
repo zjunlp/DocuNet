@@ -15,9 +15,9 @@ python -u  ./train_bio.py --data_dir ./dataset/cdr \
   --bert_lr $bl \
   --transformer_type bert \
   --model_name_or_path allenai/scibert_scivocab_cased \
-  --train_file train.data \
-  --dev_file dev.data \
-  --test_file test.data \
+  --train_file train_filter.data \
+  --dev_file dev_filter.data \
+  --test_file test_filter.data \
   --train_batch_size $bs \
   --test_batch_size $bs \
   --gradient_accumulation_steps $accum \
