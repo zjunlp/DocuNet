@@ -6,7 +6,7 @@
   	<font size=60><strong>DocNet:Document-level Relation Extraction as Semantic Segmentation</strong></font>
 </p> -->
 
-# DocNet: Document-level Relation Extraction as Semantic Segmentatio
+# DocNet: Document-level Relation Extraction as Semantic Segmentation
 
 
 
