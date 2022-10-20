@@ -21,6 +21,9 @@ Xiang Chen, Xin Xie, Shuming Deng, Ningyu Zhang, and Huajun Chen.
 This paper innovatively proposes the DocuNet model, which first regards the document-level relation extraction as the semantic segmentation task in computer vision.
 
 
+<div align=center><img src="model.png" width="80%" height="80%" /></div>
+
+
 # Requirements
 
 To install requirements:
