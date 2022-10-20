@@ -3,10 +3,10 @@
 
 <!-- 
 <p align="center">
-  	<font size=60><strong>DocuNet:Document-level Relation Extraction as Semantic Segmentation</strong></font>
+  	<font size=60><strong>DocuNet</strong></font>
 </p> -->
 
-# DocuNet: Document-level Relation Extraction as Semantic Segmentation
+# DocuNet
 
 
 
