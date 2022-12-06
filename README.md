@@ -12,6 +12,7 @@
 
 This repository is the official implementation of [**DocuNet**](https://github.com/zjunlp/DocRE/), which is model proposed in a paper: **[Document-level Relation Extraction as Semantic Segmentation](https://www.ijcai.org/proceedings/2021/551)**, accepted by **IJCAI2021** main conference. 
 
+- ❗NOTE: Docunet is integrated in the knowledge extraction toolkit [DeepKE](https://github.com/zjunlp/DeepKE).
 
 <!-- # Contributor
 Xiang Chen, Xin Xie, Shuming Deng, Ningyu Zhang, and Huajun Chen. 
